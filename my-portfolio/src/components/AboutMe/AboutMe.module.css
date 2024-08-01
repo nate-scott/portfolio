@@ -1,0 +1,104 @@
+.about {
+  text-align: left;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.aboutImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.aboutText {
+  flex: 1;
+  text-align: left;
+}
+
+.aboutText h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.aboutText p,
+ul {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.aboutText a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.aboutText a:hover {
+  color: #0056b3;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .aboutContent {
+    flex-direction: column;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  .aboutImage {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  .aboutText {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutText h2 {
+    font-size: 1.5rem;
+  }
+
+  .aboutText p,
+  ul {
+    font-size: 0.9rem;
+  }
+}
+
+/* Additional media queries for smaller screens like non-Max iPhones */
+@media (max-width: 390px) {
+  .aboutContent {
+    padding: 0 10px;
+  }
+
+  .aboutImage {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0px;
+  }
+
+  .aboutText h2 {
+    font-size: 1.2rem;
+  }
+
+  .aboutText p,
+  ul {
+    font-size: 0.8rem;
+  }
+}
