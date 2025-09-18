@@ -17,7 +17,7 @@ The site is designed to be **simple, fast, and easy to navigate**, while also le
 - **Frontend:** React  
 - **Backend:** Node.js / Express  
 - **Styling:** TailwindCSS  
-- **Hosting:** (to be added once deployed)  
+- **Hosting:** Dreamhost  
 
 ---
 
